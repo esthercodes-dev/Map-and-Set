@@ -57,3 +57,6 @@ console.log(union);
 //Intersection
 const intersection = new Set([...A].filter(x => B.has(x)));
 console.log(intersection);
+//Difference
+const difference = new Set([...A].filter(x => !B.has(x)));
+console.log(difference);
